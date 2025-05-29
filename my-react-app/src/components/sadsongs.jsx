@@ -51,23 +51,22 @@ function SadSongs() {
         {visibleSongs.map(song => (
           <div key={song.id} className="song-card">
             <h3>{song.title} by {song.artist}</h3>
-            <a href={song.youtube_url} target="_blank" rel="noopener noreferrer">
-              🎵 Watch on YouTube
-            </a>
-            <button onClick={() => handleAddToFavorites(song)}>
-              ❤️ Add to Favorites
-            </button>
+            <a href={song.youtube_url} target="_blank" rel="noopener noreferrer">Watch on YouTube</a>
+            <button onClick={() => handleAddToFavorites(song)}>Add to Favorites</button>
           </div>
         ))}
       </div>
 
+      <div className="bottom-buttons">
       {/* Go back to moods page */}
-      <button onClick={() => navigate('/moods')}>← Go Back</button>
+      <button className="go-back" onClick={() => navigate('/moods')}>← Go Back</button>
 
       {/* Show More button if there are more than 4 songs */}
       {songs.length > ITEMS_PER_PAGE && (
-        <button onClick={handleShowMore}>Show More</button>
+        <button className="refresh-songs" onClick={handleShowMore}>Refresh Songs</button>
       )}
+
+      </div>
     </div>
   );
 }
