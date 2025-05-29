@@ -26,6 +26,9 @@ const Join = () => {
             setSuccess(false);
             return;
         }
+
+        setError('')
+        setSuccess(true)
     }
 
 
