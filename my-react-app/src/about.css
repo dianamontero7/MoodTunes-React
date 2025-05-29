@@ -1,0 +1,43 @@
+.about-info{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 0 200px;
+}
+
+.about-info h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #f44594;
+    font-size: 3.0 rem
+}
+
+.about-info .green{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #aff838
+}
+
+.about-info p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #ffffff99;
+    font-size: 1.3rem;
+}
+
+.quote-box {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    padding: 24px;
+    max-width: 750px;
+    color: white;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: auto;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.2rem;
+  }

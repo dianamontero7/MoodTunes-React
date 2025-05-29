@@ -1,0 +1,83 @@
+.steps-section {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 15rem;
+  }
+
+.steps-container {
+    background-color: rgba(128, 128, 128, 0.2); 
+    padding: 4rem 3rem;
+    border-radius: 20px;
+    max-width: 1110px;
+    width: 100%;
+    text-align: center;
+  }
+
+.steps-title {
+    font-size: 3.0rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+  }
+  
+.steps-cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-bottom: 2.5rem;
+  }
+  
+.step-card {
+    background: white;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 200px;
+    transition: transform 0.3s ease;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+.step-card:hover {
+    transform: translateY(-18px);
+  }
+  
+.step-icon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+  
+.step-text {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #333;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+.steps-button {
+    background-color: #007bff;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+.steps-button .arrow {
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+.steps-button:hover {
+    background-color: #0056b3;
+  }

@@ -1,0 +1,25 @@
+.join-title{
+    margin-top: 3rem;
+    padding: 0 200px;
+    text-align: center;
+}
+.join-title h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3.5rem;
+    color: white;
+    justify-content: center;
+}
+
+.join-title p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #ffffff99;
+    font-size: 1.3rem;
+}
+
+.tunes-word{
+    font-weight: 100;
+}

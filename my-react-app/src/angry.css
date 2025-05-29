@@ -1,0 +1,45 @@
+.angry-page{
+    margin-top: 3rem;
+    padding: 0 200px;
+    text-align: center;
+}
+
+.angry-page h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3.5rem;
+    color: white;
+    justify-content: center;
+}
+
+.angry-page p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #ffffff99;
+    font-size: 1.3rem;
+}
+
+.back-button {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    background-color: #007bff;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.5rem 1.0rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+.back-button .arrow {
+    margin-right: 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+.back-button:hover {
+    background-color: #0056b3;
+  }
