@@ -40,6 +40,10 @@ app.get('/moods', async (req, res) => {
     }
   });  
 
+  app.get('/', (req, res) => {
+    res.send('MoodTunes API is running!');
+  });
+
 
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
