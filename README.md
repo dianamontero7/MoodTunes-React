@@ -20,7 +20,7 @@ Built with **React**, **Express**, and **MongoDB**, this project serves as the *
 - Future expansion planned for iOS and Android mobile apps  
 
 ## GitHub  
-[GitHub Repo URL](#) <!-- Replace # with actual repo URL -->
+[GitHub Repo URL](https://github.com/dianamontero7/MoodTunes-React)]
 
 ## Deployed URL  
 [https://moodtunes-react.onrender.com/](https://moodtunes-react.onrender.com/)
