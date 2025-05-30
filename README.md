@@ -32,7 +32,7 @@ Built with **React**, **Express**, and **MongoDB**, this project serves as the *
 ## Stack  
 
 **Frontend:**  
-- Vite + React  
+- Vite + React + React Router 
 
 **Server:**  
 - ExpressJS + NodeJS  
