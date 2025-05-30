@@ -1,35 +1,45 @@
-# MoodTunes-React
+# MoodTunes-React 🎵
 
-Project Name
-Your Project Name
+## Project Name  
+**MoodTunes**
 
-Project Description / Objective
-Does Cool Never Before Seen Thing and Is Built and Designed Well Enough for a Passing Grade and serve as the MVP for my new Startup
+## Project Description / Objective  
+MoodTunes is a full-stack web application that curates music based on the user’s mood. The site allows users to:  
+- Explore mood-based songs  
+- Add songs to a personal favorites page  
+- Discover new music through a clean, responsive interface  
 
-Target Audience
-Nintendo Fans
+Built with **React**, **Express**, and **MongoDB**, this project serves as the **Minimum Viable Product (MVP)** for a potential music discovery startup.
 
-Platforms
-Nintendo64 Emulators
+## Target Audience  
+- Music lovers seeking personalized listening experiences  
+- Young adults and teens (ages 16–30) who regularly stream music online  
 
-Github
-Github Repo URL
+## Platforms  
+- Web (desktop & mobile browsers)  
+- Future expansion planned for iOS and Android mobile apps  
 
-Deployed URL
-Deployed URL
+## GitHub  
+[GitHub Repo URL](#) <!-- Replace # with actual repo URL -->
 
-Stack
-Frontend: Vite + React + Bootstrap
+## Deployed URL  
+[https://moodtunes-react.onrender.com/](https://moodtunes-react.onrender.com/)
 
-Server: ExpressJS + NodeJS
+## Stack  
 
-Database: MongoDB
+**Frontend:**  
+- Vite + React  
 
-Hosting(s):
+**Server:**  
+- ExpressJS + NodeJS  
 
-Frontend: http://Render.com
+**Database:**  
+- MongoDB  
 
-Backend: http://Render.com
+## Hosting(s)
 
-DB: MongoDB Atlas
+- **Frontend:** [https://moodtunes-react.onrender.com/](https://moodtunes-react.onrender.com/)  
+- **Backend:** [https://moodtunes-react-server.onrender.com/moods](https://moodtunes-react-server.onrender.com/moods)  
+- **Database:** [MongoDB Atlas Dashboard](https://cloud.mongodb.com/v2/68373329d5bf1b1043b60996#/metrics/replicaSet/68373378d9a7cc29527224a5/explorer/MoodTunes/moods/find)
+
 
