@@ -57,32 +57,34 @@
   
 .title {
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     margin-top: -20px;
     margin-bottom: 8px;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
+    line-height: 1;
     font-style: normal;
   }
   
 .desc {
-    font-size: 1rem;
-    line-height: 1.3;
+    font-size: 1.1rem;
+    line-height: 1.8;
     font-family: "Poppins", sans-serif;
-    font-weight: 500;
+    font-weight: 450;
     font-style: italic;
 
   }
   
   
 .happy {
-    background-color: #fcd34d !important;
+    background-color: #f7d153 !important;
     color: #111827;
   }
   
 .sad {
-    background-color: #3b82f6 !important;
+    background-color: #3d83f2 !important;
     color: white;
+    
   }
   
 .chill {
@@ -91,6 +93,6 @@
   }
   
 .angry {
-    background-color: #ef4444 !important;
+    background-color: #e85151 !important;
     color: white;
   }

@@ -8,14 +8,14 @@ const moods= [
   { 
     emoji: "😊",
     title: "Happy",
-    description: "Feeling good? Let's turn it up!",
+    description: "Feeling good? Turn it up!",
     className: "happy",
   },
 
   {
     emoji: "😢",
     title: "Sad",
-    description: "Feeling down? Let's lift you  up!",
+    description: "Feeling down? Let's lift up!",
     className: "sad",
   },
   {

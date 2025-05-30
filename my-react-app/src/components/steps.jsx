@@ -6,7 +6,7 @@ const Steps = () => {
     return (
         <section className="steps-section">
             <div className ="steps-container">
-                <h2 className="steps-title">How to use MoodTunes in 3 Easy Steps</h2>
+                <h2 className="steps-title">How to Use Moodtunes in 3 Easy Steps</h2>
             <div className="steps-cards">
                 <div className="step-card">
                      <div className="step-icon">😊</div>
@@ -14,7 +14,7 @@ const Steps = () => {
             </div>
             <div className="step-card">
                 <div className="step-icon">🎵</div>
-                    <p className="step-text"><strong>02.</strong> Get songs instantly</p>
+                    <p className="step-text"><strong>02.</strong> Get Songs instantly</p>
             </div>
             <div className="step-card">
                 <div className="step-icon">❤️</div>

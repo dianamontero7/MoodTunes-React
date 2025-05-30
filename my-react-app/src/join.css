@@ -24,23 +24,74 @@
     font-weight: 100;
 }
 
-.error-message{
+
+.input-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.join-form{
     background-color: rgba(255, 255, 255, 0.15);
-    max-width: 750px;
-    color: white;
-    font-size: 18px;
-    line-height: 1.6;
-    margin: auto;
+    padding: 50px;
+    margin-top: 1.9rem;
+    margin-bottom: 6rem;
+    border-radius: 3%;
+    width: 40%
+}
+
+.title-1{
+    margin-bottom: 20px;
+}
+
+.title-2{
+    color: rgba(255, 255, 255, 0.55);
     font-family: "Montserrat", sans-serif;
+    font-weight: 550;
+}
+
+
+input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 1rem;
+  }
   
+input::placeholder {
+    color: #bdbdbd;
+    font-family: "Poppins", sans-serif;
+  }
+  
+
+button[type="submit"] {
+    width: 100%;
+    margin-top: 20px;
+    padding: 14px;
+    font-size: 1rem;
+    font-weight: bold;
+    background: white;
+    color: #24243e;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-family: "Montserrat", sans-serif;
+    font-size: larger;
+  }
+  
+  button[type="submit"]:hover {
+    background: #ddd;
+  }
+.error-message{
+    color: white;
+    font-family: "Montserrat", sans-serif;
 }
 
 .success-message{
-    background-color: rgba(255, 255, 255, 0.15);
-    max-width: 750px;
     color: white;
-    font-size: 18px;
-    line-height: 1.6;
-    margin: auto;
     font-family: "Montserrat", sans-serif;
 }

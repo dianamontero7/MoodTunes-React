@@ -3,33 +3,33 @@ import '../angry.css';
 import { useNavigate } from "react-router-dom";
 
 function AngrySongs() {
-  const navigate = useNavigate(); // lets you go to a different page
-  const [songs, setSongs] = useState([]); // list of all happy songs
-  const [startIndex, setStartIndex] = useState(0); // where to start showing songs
-  const ITEMS_PER_PAGE = 4; // how many songs to show at once
+  const navigate = useNavigate(); 
+  const [songs, setSongs] = useState([]); 
+  const [startIndex, setStartIndex] = useState(0); 
+  const ITEMS_PER_PAGE = 4; 
 
-  // Load songs from the backend when the page loads
+ 
   useEffect(() => {
     fetch('http://localhost:5050/moods')
       .then(res => res.json())
       .then(data => {
-        // only keep songs with mood "happy" (case-insensitive)
+       
         const angrySongs = data.filter(song => song.mood?.toLowerCase() === "angry");
         setSongs(angrySongs);
       })
       .catch(error => console.log("Error fetching songs:", error));
   }, []);
 
-  // Show 4 songs at a time, then reset when reaching the end
+ 
   const handleShowMore = () => {
     const nextIndex = startIndex + ITEMS_PER_PAGE;
     setStartIndex(nextIndex >= songs.length ? 0 : nextIndex);
   };
 
-  // Only show a part of the songs list
+ 
   const visibleSongs = songs.slice(startIndex, startIndex + ITEMS_PER_PAGE);
 
-  // Add song to favorites in localStorage
+
   const handleAddToFavorites = (song) => {
     const saved = JSON.parse(localStorage.getItem("favorites")) || [];
     const alreadySaved = saved.some(item => item.id === song.id);
@@ -43,8 +43,8 @@ function AngrySongs() {
     <div className="angry-page">
       <h1>Music for Your Angry Mood</h1>
       <p>
-        Enjoy these angry songs!<br />
-        Click a link to watch or add it to your favorites.
+        Enjoy these angry songs.<br />
+        Click "Watch on YouTube" or add it to your favorites.
       </p>
 
       <div className="song-list">
@@ -59,10 +59,9 @@ function AngrySongs() {
       </div>
       
       <div className="bottom-buttons">
-      {/* Go back to moods page */}
+     
       <button className="go-back" onClick={() => navigate('/moods')}>← Go Back</button>
 
-      {/* Show More button if there are more than 4 songs */}
       {songs.length > ITEMS_PER_PAGE && (
         <button className="refresh-songs" onClick={handleShowMore}>Refresh Songs</button>
       )}
