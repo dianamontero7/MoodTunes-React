@@ -29,7 +29,7 @@ const moodSchema = new mongoose.Schema({
 const Mood= mongoose.model('Mood', moodSchema, 'moods');
 
   
-app.get('/', async (req, res) => {
+app.get('/moods', async (req, res) => {
     try {
       const moods = await Mood.find();
       console.log('Fetched moods:', moods); 
