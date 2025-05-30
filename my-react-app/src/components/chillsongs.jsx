@@ -10,7 +10,7 @@ function ChillSongs() {
 
  
   useEffect(() => {
-    fetch('http://localhost:5050/moods')
+    fetch('https://moodtunes-react-server.onrender.com/moods')
       .then(res => res.json())
       .then(data => {
       

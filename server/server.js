@@ -32,7 +32,6 @@ const Mood= mongoose.model('Mood', moodSchema, 'moods');
 app.get('/moods', async (req, res) => {
     try {
       const moods = await Mood.find();
-      console.log('Fetched moods:', moods); 
       res.json(moods);
     } catch (err) {
       console.error('Failed to fetch moods:', err);
