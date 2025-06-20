@@ -15,6 +15,8 @@ import AngrySongs from './components/angrysongs.jsx'
 import Favorites from './pages/favorites.jsx'
 import Join from './pages/join.jsx'
 
+import QuestionAI from './components/questionai.jsx'
+
 
 
 function App() {
@@ -39,6 +41,8 @@ return (
                 <Hero/>
                 <div style={{ height: '180px' }} />
                 <Steps/>
+
+                <QuestionAI/>
               </>
             }
 
